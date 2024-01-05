@@ -1,24 +1,45 @@
 /* Write your CSS code here */
-.contact-container {
+.bg-coontainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  justify-content: space-between;
   align-items: center;
-  height: 70vh;
+  margin-top: 30px;
+  margin-right: 220px;
+  margin-left: 250px;
 }
-
-.contact-img {
-  width: 150px;
-}
-
-.contact-heading {
+.iconsst {
+  color: rebeccapurple;
+  font-size: 24px;
+  font-weight: bold;
   font-family: 'Roboto';
-  font-weight: 500;
-  color: #6d396b;
 }
+.iconsst1 {
+  color: #2dd4bf;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.iconsst2 {
+  color: #e73959;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.thery-con {
+  display: flex;
 
-@media (min-width: 576px) {
-  .contact-heading {
-    font-size: 48px;
-  }
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 220px;
+  margin-left: 250px;
+}
+.pr {
+  color: #475569;
+  font-size: 18px;
+}
+.icon {
+  height: 10vh;
+  width: 8vw;
 }

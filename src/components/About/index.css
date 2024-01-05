@@ -1,32 +1,100 @@
-/* Write your CSS code here */
 .about-container {
+  margin-right: 10px;
+}
+.about-heading {
+  color: orange;
+  font-size: 25px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+.about-paragraph {
+  color: black;
+  font-size: 45px;
+  font-family: Italic;
+  font-weight: bold;
+  align-self: flex-start;
+}
+.bg-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.length-paragraph {
+  color: gray;
+  font-size: 20px;
+}
+.btn-conter {
+  display: flex;
+  align-self: flex-start;
+}
+.project-btn {
+  background-color: orange;
+  color: black;
+  border: transparent;
+  padding: 10px;
+  font-size: 19px;
+  border-radius: 9px;
+  margin-right: 20px;
+}
+.linkdin-btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 19px;
+  border-radius: 9px;
+}
+
+.add-project-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
 }
-
-.about-img {
-  width: 150px;
+.add-projects-heading {
+  color: black;
+  font-size: 45px;
+  font-family: Italic;
+  font-weight: bold;
+  text-decoration: underline;
+  align-self: center;
 }
-
-.about-heading {
-  font-family: 'Roboto';
-  font-weight: 500;
-  color: #6d396b;
-  font-size: 24px;
+.form-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
+.label {
+  color: black;
+  font-size: 15px;
 
-@media (min-width: 576px) {
-  .about-heading {
-    font-size: 48px;
-  }
+  margin-top: 10px;
+  align-self: flex-start;
+  font-weight: 500px;
 }
-
-.about-paragraph {
-  font-family: 'Roboto';
-  font-size: 20px;
-  text-align: center;
-  color: #555555;
+.user-input {
+  background-color: whitesmoke;
+  border: transparent;
+  padding: 12px;
+  border-radius: 5px;
+  width: 20vw;
+  margin-top: 10px;
+}
+.add-btn {
+  background-color: orange;
+  color: black;
+  border: transparent;
+  padding: 10px;
+  font-size: 19px;
+  border-radius: 9px;
+  margin-right: 20px;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.image {
+  width: 30vw;
+  height: 60vh;
+  left: 720px;
 }
